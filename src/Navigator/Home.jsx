@@ -5,7 +5,7 @@ import Toast from '../Components/Toast';
 import AddItemBox from '../Components/AddItemBox';
 import { motion } from "framer-motion"
 
-// cd OneDrive/Documents/Documents/rajvinder/script/project/React\ Project/todo-app/
+
 
 
 const getLocalItem = () => {
@@ -310,31 +310,6 @@ function Home() {
     function onCategory(e) {
         const val = e.target.value;
         setList(val)
-
-        // if (val === "InComplete") {
-        //     const incom = note.find((n, i) => {
-        //         return n.category === "Incomplete";
-        //     })
-        //     dataAfter();
-        // }
-
-        // else if (val === "All") {
-        //     dataAfter();
-        // }
-
-        // else if (val === "Complete") {
-
-        //     // if (note.length === 0) {
-        //     //     SetNodata(false)
-        //     // }
-
-        //     // dataAfter();
-        //     // checkData();
-        // }
-        // else {
-        //     dataAfter();
-        //     // checkData();
-        // }
 
     }
 
